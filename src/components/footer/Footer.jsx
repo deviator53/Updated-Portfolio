@@ -3,7 +3,7 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <div>Experience</div>
+        <section id="footer">Experience</section>
     );
 };
 export default Footer;
