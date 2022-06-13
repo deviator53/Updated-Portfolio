@@ -11,32 +11,32 @@ const Services = () => {
             <div className="container services__container">
                 <article className="service">
                     <div className="service__head">
-                        <h3>Web Development</h3>
+                        <h3>Content Creation</h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Analytics Interpretation and Reporting</p>
+                            <p>Proficient in creating all types of online content</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Competition Monitoring</p>
+                            <p>100% original and unique content</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>HTML E-mail Template Design</p>
+                            <p>Revisions on request</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Blog Customization/Management</p>
+                            <p>Keyword-optimized content for SEO</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Pay-Per-Click Campaign Management</p>
+                            <p>Quick turnaround</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Sales Presentation Development</p>
+                            <p>Industry best pricing</p>
                         </li>
                        
                     </ul>
@@ -78,12 +78,12 @@ const Services = () => {
                 </article>
                 <article className="service">
                     <div className="service__head">
-                        <h3>Web Development</h3>
+                        <h3>Product Design</h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Analytics Interpretation and Reporting</p>
+                            <p>UX/UI audits</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
@@ -91,19 +91,20 @@ const Services = () => {
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>HTML E-mail Template Design</p>
+                            <p>Professional user interface structures
+</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Blog Customization/Management</p>
+                            <p>Brand iconography and illustrations</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Pay-Per-Click Campaign Management</p>
+                            <p>Visual design & animations</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Sales Presentation Development</p>
+                            <p>Layout prototypes</p>
                         </li>
                         
                     </ul>
