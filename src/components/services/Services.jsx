@@ -100,7 +100,7 @@ const Services = () => {
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
-                            <p>Visual design & animations</p>
+                            <p>Visual designs & animations</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon"/>
