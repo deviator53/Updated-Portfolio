@@ -6,6 +6,7 @@ import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg'; 
 import IMG4 from '../../assets/portfolio4.jpg'; 
 import IMG7 from '../../assets/portfolio6.jpg'; 
+import IMG8 from '../../assets/save4.jpg';
 
 
 const data = [
@@ -44,6 +45,13 @@ const data = [
         github: 'https://github.com/deviator53/FoodWebsite',
         demo: 'https://whack1--mole.surge.sh'
     },
+    {
+        id: 6,
+        image: IMG8,
+        title: 'Save 4 Fintech Mobile App (React Native)',
+        github: '',
+        demo: 'https://play.google.com/store/apps/details?id=com.Save4'
+    }
 ] 
 
 
@@ -64,8 +72,8 @@ const Portfolio = () => {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
-                                    <a href={github} className="btn" target="_blank">Github</a>
-                                    <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
+                                    <a href={github} className="btn" target="_blank" rel="noreferrer">Github</a>
+                                    <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
                                 </div>
                             </article>
                         )
