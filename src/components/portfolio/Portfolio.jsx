@@ -8,6 +8,10 @@ import IMG4 from "../../assets/portfolio4.jpg";
 import IMG7 from "../../assets/portfolio6.jpg";
 import IMG8 from "../../assets/save4.jpg";
 import IMG9 from "../../assets/erp.jpg";
+import IMG10 from "../../assets/st-travels.jpg";
+import IMG11 from "../../assets/bfg.jpg";
+import IMG12 from "../../assets/cyber-clinics.jpg":
+  
 
 const data = [
   {
@@ -23,7 +27,7 @@ const data = [
     image: IMG2,
     title: "Allan Turing Codes Website (ReactJS)",
     github: "https://github.com/GodfreySam/alt-website",
-    demo: "https://alanturingcodes.com",
+    demo: "https://www.alanturingcodes.com",
     disabled: false,
   },
   {
@@ -63,9 +67,34 @@ const data = [
     image: IMG9,
     title: "ERP Software (ReactJS, MUI, Tailwind, Redux)",
     github: "",
-    demo: "",
-    disabled: true,
+    demo: "https://www.emosbestgroup.com/",
+    disabled: false,
   },
+ {
+    id: 7,
+    image: IMG10,
+    title: "Travel Agency Web Application (NextJS, Bootstrap, Redux)",
+    github: "",
+    demo: "https://www.sttravelsconsulting.com",
+    disabled: false,
+  },
+{
+    id: 8,
+    image: IMG11,
+    title: "Business Consulting Agency Website (NextJS, Tailwind, Redux)",
+    github: "",
+    demo: "https://www.bfgconsults.com/",
+    disabled: false,
+  },
+{
+    id: 9,
+    image: IMG12,
+    title: "Telemedical Mobile App (Bubble.io, React Native, Firebase)",
+    github: "",
+    demo: "https://play.google.com/store/apps/details?id=com.ffpvhuMeFsAT.natively",
+    disabled: false,
+  },
+  
 ];
 
 const Portfolio = () => {
