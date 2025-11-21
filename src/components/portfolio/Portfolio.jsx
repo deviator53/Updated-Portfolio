@@ -74,7 +74,7 @@ const data = [
     disabled: false,
   },
  {
-    id: 7,
+    id: 8,
     image: IMG10,
     title: "Travel Agency Web Application (NextJS, Bootstrap, Redux)",
     github: "",
@@ -82,7 +82,7 @@ const data = [
     disabled: false,
   },
 {
-    id: 8,
+    id: 9,
     image: IMG11,
     title: "Business Consulting Agency Website (NextJS, Tailwind, Redux)",
     github: "",
@@ -90,7 +90,7 @@ const data = [
     disabled: false,
   },
 {
-    id: 9,
+    id: 10,
     image: IMG12,
     title: "Telemedical Mobile App (Bubble.io, React Native, Firebase)",
     github: "",
@@ -98,7 +98,7 @@ const data = [
     disabled: false,
   },
   {
-    id: 10,
+    id: 11,
     image: IMG13,
     title: "Real Estate and Property Management Application( NextJS, PayloadCMS)",
     github: "",
@@ -106,7 +106,7 @@ const data = [
     disabled: false,
   },
    {
-    id: 10,
+    id: 12,
     image: IMG14,
     title: "FMCG E-Commerce Platform (NexJS, PayloadCMS)",
     github: "",
