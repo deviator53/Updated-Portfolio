@@ -6,11 +6,14 @@ import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG7 from "../../assets/portfolio6.jpg";
+
 import IMG8 from "../../assets/save4.jpg";
 import IMG9 from "../../assets/erp.jpg";
 import IMG10 from "../../assets/st-travels.jpg";
 import IMG11 from "../../assets/bfg.jpg";
 import IMG12 from "../../assets/cyber-clinics.jpg";
+import IMG13 from "../../assets/portfolio9.png";
+import IMG14 from "../../assets/portfolio10.png";
   
 
 const data = [
@@ -92,6 +95,22 @@ const data = [
     title: "Telemedical Mobile App (Bubble.io, React Native, Firebase)",
     github: "",
     demo: "https://play.google.com/store/apps/details?id=com.ffpvhuMeFsAT.natively",
+    disabled: false,
+  },
+  {
+    id: 10,
+    image: IMG13,
+    title: "Real Estate and Property Management Application( NextJS, PayloadCMS)",
+    github: "",
+    demo: "https://www.pagemansions.com",
+    disabled: false,
+  },
+   {
+    id: 10,
+    image: IMG14,
+    title: "FMCG E-Commerce Platform (NexJS, PayloadCMS)",
+    github: "",
+    demo: "https://www.chikblessing.com",
     disabled: false,
   },
   
