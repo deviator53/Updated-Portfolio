@@ -14,6 +14,8 @@ import IMG11 from "../../assets/bfg.jpg";
 import IMG12 from "../../assets/cyber-clinics.jpg";
 import IMG13 from "../../assets/portfolio9.png";
 import IMG14 from "../../assets/portfolio10.png";
+import IMG15 from "../../assets/portfolio11.png";
+
   
 
 const data = [
@@ -113,6 +115,14 @@ const data = [
     demo: "https://www.chikblessing.com",
     disabled: false,
   },
+   {
+    id: 13,
+    image: IMG15,
+    title: "Agro E-Commerce Platform (NexJS, PayloadCMS)",
+    github: "",
+    demo: "https://www.kobamsagrosolutions.com",
+    disabled: false,
+  },
   
 ];
 
@@ -122,38 +132,41 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo, disabled }) => {
-          return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a
-                  href={github}
-                  className={`btn  ${disabled ? "disabled" : ""}`}
-                  onClick={(e) => disabled && e.preventDefault()}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-                <a
-                  href={demo}
-                  className={`btn btn-primary ${disabled ? "disabled" : ""}`}
-                  onClick={(e) => disabled && e.preventDefault()}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          );
-        })}
-      </div>
+     <div className="container portfolio__container">
+  {data
+    .slice() 
+    .reverse() 
+    .map(({ id, image, title, github, demo, disabled }) => {
+      return (
+        <article key={id} className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={image} alt={title} />
+          </div>
+          <h3>{title}</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href={github}
+              className={`btn  ${disabled ? "disabled" : ""}`}
+              onClick={(e) => disabled && e.preventDefault()}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href={demo}
+              className={`btn btn-primary ${disabled ? "disabled" : ""}`}
+              onClick={(e) => disabled && e.preventDefault()}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+      );
+    })}
+</div>
     </section>
   );
 };
