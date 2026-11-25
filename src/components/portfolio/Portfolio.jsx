@@ -15,6 +15,10 @@ import IMG12 from "../../assets/cyber-clinics.jpg";
 import IMG13 from "../../assets/portfolio9.png";
 import IMG14 from "../../assets/portfolio10.png";
 import IMG15 from "../../assets/portfolio11.png";
+import IMG16 from "../../assets/12twenty-banner.jpg";
+import IMG17 from "../../assets/wbof-banner.jpg";
+import IMG18 from "../../assets/oziak-banner.jpg";
+
 
   
 
@@ -102,25 +106,49 @@ const data = [
   {
     id: 11,
     image: IMG13,
-    title: "Real Estate and Property Management Application( NextJS, PayloadCMS)",
+    title: "Real Estate and Property Management Application (NextJS, PayloadCMS)",
     github: "",
-    demo: "https://www.pagemansions.com",
+    demo: "https://page-mansion-website.vercel.app/",
     disabled: false,
   },
    {
     id: 12,
     image: IMG14,
-    title: "FMCG E-Commerce Platform (NexJS, PayloadCMS)",
+    title: "FMCG E-Commerce Platform (NextJS, PayloadCMS)",
     github: "",
-    demo: "https://www.chikblessing.com",
+    demo: "https://chik-blessing-e-commerce.vercel.app/",
     disabled: false,
   },
    {
     id: 13,
     image: IMG15,
-    title: "Agro E-Commerce Platform (NexJS, PayloadCMS)",
+    title: "Agro E-Commerce Platform (NextJS, PayloadCMS)",
     github: "",
     demo: "https://www.kobamsagrosolutions.com",
+    disabled: false,
+  },
+  {
+    id: 14,
+    image: IMG16,
+    title: "12Twenty Group Platform (NextJS, PayloadCMS)",
+    github: "",
+    demo: "https://www.12twentygroup.com/",
+    disabled: false,
+  },
+   {
+    id: 15,
+    image: IMG17,
+    title: "WBOF Foundation Website  (NextJS,Sanity.io)",
+    github: "",
+    demo: "https://www.walterbamideleolatunji.com/",
+    disabled: false,
+  },
+   {
+    id: 16,
+    image: IMG18,
+    title: "Oziak Stitches E-commerce Platform  (NextJS, PayloadCMS)",
+    github: "",
+    demo: "https://www.oziakstitches.com/",
     disabled: false,
   },
   
